@@ -1,7 +1,7 @@
 type Solution = number | string;
 
 export const solutions: Record<string, { part1?: Solution; part2?: Solution }> = {
-    1: {},
+    1: { part1: 1477, part2: 1523 },
     2: {},
     3: {},
     4: {},
