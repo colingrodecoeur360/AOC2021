@@ -2,6 +2,10 @@ export function toInt(n: string) {
     return parseInt(n);
 }
 
+export function binaryNumbersToInt(n: number[]) {
+    return parseInt(n.join(""), 2);
+}
+
 export function isNDigitNumber(value: string, n: number) {
     const regex = new RegExp(`^[0-9]{${n}}$`);
     return !! value.match(regex);
