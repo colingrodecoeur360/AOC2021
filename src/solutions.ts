@@ -5,7 +5,7 @@ export const solutions: Record<string, { part1?: Solution; part2?: Solution }> =
     2: { part1: 2322630, part2: 2105273490 },
     3: { part1: 4174964, part2: 4474944 },
     4: { part1: 87456, part2: 15561 },
-    5: {},
+    5: { part1: 4421, part2: 18674 },
     6: {},
     7: {},
     8: {},
