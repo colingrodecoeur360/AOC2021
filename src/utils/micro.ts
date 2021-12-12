@@ -20,3 +20,13 @@ export function multiply(numbers: number[]) {
     numbers.forEach(number => result *= number);
     return result;
 }
+
+export function median(numbers: number[]) {
+    const sortedNumbers = [...numbers].sort((a, b) => b - a);
+    const n = numbers.length;
+    if (n % 2 === 0) {
+        return (sortedNumbers[n / 2] + sortedNumbers[(n / 2) - 1]) / 2;
+    } else {
+        return sortedNumbers[Math.floor(n / 2)];
+    }
+}
