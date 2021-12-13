@@ -13,7 +13,7 @@ export const solutions: Record<string, { part1?: Solution; part2?: Solution }> =
     10: { part1: 411471, part2: 3122628974 },
     11: { part1: 1683, part2: 788 },
     12: { part1: 4775, part2: 152480 },
-    13: {},
+    13: { part1: 814, part2: 39 },
     14: {},
     15: {},
     16: {},
