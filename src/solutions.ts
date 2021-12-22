@@ -20,7 +20,7 @@ export const solutions: Record<string, { part1?: Solution; part2?: Solution }> =
     17: { part1: 4950, part2: 1477 },
     18: {},
     19: {},
-    20: {},
+    20: { part1: 5291, part2: 16665 },
     21: {},
     22: {},
     23: {},
