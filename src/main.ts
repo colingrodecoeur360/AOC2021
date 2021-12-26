@@ -23,7 +23,7 @@ import { day20 } from "./day20";
 // import { day22 } from "./day22";
 // import { day23 } from "./day23";
 // import { day24 } from "./day24";
-// import { day25 } from "./day25";
+import { day25 } from "./day25";
 
 displaySolutions({
     1: day01(),
@@ -50,5 +50,5 @@ displaySolutions({
     // 22: day22(),
     // 23: day23(),
     // 24: day24(),
-    // 25: day25()
+    25: day25()
 }, { latest: true });

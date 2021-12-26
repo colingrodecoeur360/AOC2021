@@ -25,5 +25,5 @@ export const solutions: Record<string, { part1?: Solution; part2?: Solution }> =
     22: {},
     23: {},
     24: {},
-    25: {}
+    25: { part1: 367 }
 };
